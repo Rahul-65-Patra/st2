@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body class="font-sans text-gray-800 bg-white">
+  <div class="max-w-6xl p-6 mx-auto">
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+
+      <div class="p-6 space-y-6 border-2 border-blue-300 rounded">
+        <h2 class="mb-1 text-lg font-semibold uppercase">Leave us a message</h2>
+        <p class="mb-6 text-sm text-gray-600">Use the form below to get in touch with the RAFCart team</p>
+
+        <form class="space-y-4">
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+            <div>
+              <label class="block mb-1 text-sm font-medium">First Name <span class="text-red-500">*</span></label>
+              <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-red-500" required>
+            </div>
+            
+            <div>
+              <label class="block mb-1 text-sm font-medium">Last Name <span class="text-red-500">*</span></label>
+              <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-red-500" required>
+            </div>
+          </div>
+
+          <div>
+            <label class="block mb-1 text-sm font-medium">Email Address <span class="text-red-500">*</span></label>
+            <input type="email" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-red-500" required>
+          </div>
+
+          <div>
+            <label class="block mb-1 text-sm font-medium">Subject <span class="text-red-500">*</span></label>
+            <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-red-500" required>
+          </div>
+
+          <div>
+            <label class="block mb-1 text-sm font-medium">Your message <span class="text-red-500">*</span></label>
+            <textarea rows="4" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-red-500" required></textarea>
+          </div>
+
+          <button type="submit" class="px-6 py-2 text-sm font-medium text-white transition bg-red-600 rounded hover:bg-red-700">
+            Send Message
+          </button>
+        </form>
+      </div>
+
+  
+      <div class="p-3 space-y-6 border-2 border-blue-300 rounded">
+        <div class="ml-4">
+          <h3 class="mb-2 text-base font-semibold uppercase">Our Store</h3>
+          <p class="text-sm text-gray-700">1600 E New St, Aurora, ILL 60502, United States of America</p>
+          <p class="mt-2 text-sm"><strong>Phone:</strong> +92 423 5678</p>
+          <p class="text-sm"><strong>Fax:</strong> +92 423 5679</p>
+          <p class="text-sm"><strong>Email:</strong> info@domain.com</p>
+        </div>
+
+        <div>
+          <h3 class="mb-2 text-base font-semibold uppercase">Hours of Operation</h3>
+          <ul class="space-y-1 text-sm text-gray-700">
+            <li>Saturday: 12:00 PM</li>
+            <li>Sunday: 12:00 PM</li>
+            <li>Monday: 12:00 PM</li>
+            <li>Tuesday: 12:00 PM</li>
+            <li>Wednesday: 12:00 PM</li>
+            <li>Thursday: 12:00 PM</li>
+            <li>Friday: 12:00 PM</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="mb-2 font-semibold uppercase text-bold">Careers</h3>
+          <p class="text-sm text-gray-700">
+            If you're interested in employment opportunities at RAFCart, please email us:
+          </p>
+          <a href="mailto:careers@domain.com" class="text-sm font-medium text-red-600 hover:underline">careers@domain.com</a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</body>
+</html>

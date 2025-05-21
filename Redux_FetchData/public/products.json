@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "brand": "Dell",
+    "price": 800,
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "brand": "Apple",
+    "price": 1200,
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Headphones",
+    "brand": "Sony",
+    "price": 150,
+    "rating": 3
+  }
+]
